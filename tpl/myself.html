@@ -1,0 +1,47 @@
+<ion-view>
+    <div ng-include="'tpl/header.html'"></div>
+    <ion-content>
+
+            <div class="item item-divider"></div>
+            <a class="item item-thumbnail-left" href="#">
+                <img src="img/me.png">
+                <h2>{{name}}</h2>
+                <p>微信号：</p>
+            </a>
+
+            <div class="item item-divider"></div>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-image"></i>
+                相册
+            </ion-item>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-social-instagram-outline"></i>
+                收藏
+            </ion-item>
+
+            <div class="item item-divider"></div>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-qr-scanner"></i>
+                钱包
+            </ion-item>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-card"></i>
+                卡包
+            </ion-item>
+
+            <div class="item item-divider"></div>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-happy"></i>
+                表情
+            </ion-item>
+
+
+
+            <div class="item item-divider"></div>
+            <ion-item class="item item-icon-left">
+                <i class="icon ion-android-settings"></i>
+                设置
+            </ion-item>
+    </ion-content>
+    <div ng-include="'tpl/footer.html'"></div>
+</ion-view>

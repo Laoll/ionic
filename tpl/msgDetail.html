@@ -1,0 +1,106 @@
+<ion-view>
+    <!--头部-->
+    <ion-header-bar align-title="left" class="bar-dark bar bar-header disable-user-behavior">
+        <a class="h1 title title-left" style="right: 107px;" href="#/manage">
+            <i class="icon ion-arrow-left-c"></i>小小小
+        </a>
+        <div class="buttons">
+            <button class="button no-animation button-icon icon ion-android-people">
+            </button>
+        </div>
+    </ion-header-bar>
+    <!--主体-->
+    <ion-content class="msg">
+        <div class="other">
+            <a href="#/book:1"><img class="pic" src="img/max.png" alt=""/></a>
+            <div class="text ">{{id}}Lorem ipsum dolor sit ame</div>
+        </div>
+
+        <div class=" myself">
+            <a href="#/book:1"><img class="pic" src="img/me.png" alt=""/></a>
+            <div class="text "> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</div>
+        </div>
+
+        <div class="other">
+            <a href="#/book:1"><img class="pic" src="img/max.png" alt=""/></a>
+            <div class="text ">这里举个栗子</div>
+        </div>
+
+        <div class=" myself">
+            <a href="#/book:1"><img class="pic" src="img/me.png" alt=""/></a>
+            <div class="text "> 这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子这里举2个栗子</div>
+        </div>
+
+        <div class="other">
+            <a href="#/book:1"><img class="pic" src="img/max.png" alt=""/></a>
+            <div class="text ">Lorem ipsum dolor sit ame</div>
+        </div>
+        <div class="other">
+            <a href="#/book:1"><img class="pic" src="img/max.png" alt=""/></a>
+            <div class="text ">lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem
+                loremlorem lorem lorem lorem lorem lorem lorem lor
+                em lorem lorem lorem lorem lorem lorem lorem lorem lorem loremLorem ipsum dolor sit ame</div>
+        </div>
+
+        <div class=" myself">
+            <a href="#/book:1"><img class="pic" src="img/me.png" alt=""/></a>
+            <div class="text "> lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem
+                loremlorem lorem lorem lorem lorem lorem lorem lor
+                em lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</div>
+        </div>
+    </ion-content>
+    <!--底部-->
+    <div id="msg">
+        <div class="buttons">
+            <button class="button no-animation button-icon icon ion-ios-mic-outline" style="width: 50px"></button>
+            <input type="text" class="inputText" style="flex: 1" ng-model="message"/>
+            <button class="button no-animation button-icon icon ion-happy-outline" style="width: 50px">
+            </button>
+            <button class="button no-animation button-icon icon ion-ios-plus-outline" style="width: 50px" ng-click="showMore()"  ng-hide="message">
+            </button>
+            <button class="button button-balanced" style="width: 60px" ng-show="message">
+                发送
+            </button>
+        </div>
+        <!--选择框-->
+        <div class="chooseBox" ng-show="more">
+            <div class="row">
+                <div class="col">
+                    <button class="button icon ion-android-image"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-android-image"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-android-film"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-android-happy"></button>
+                    <p>语音输入</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button icon ion-fireball"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-ios-location"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-ios-mic"></button>
+                    <p>语音输入</p>
+                </div>
+                <div class="col">
+                    <button class="button icon ion-android-call"></button>
+                    <p>语音输入</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</ion-view>

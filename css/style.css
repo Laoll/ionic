@@ -1,0 +1,197 @@
+body{
+    background:#1d3043;
+}
+section{
+    padding: 50px 0;
+}
+a{
+    text-decoration: none;
+}
+div.scroll:after{
+    content: '';
+    display: block;
+    height: 60px;
+}
+div.scroll:before{
+    content: '';
+    display: block;
+    height: 45px;
+}
+.myPic{
+    background: url("../img/mysely-bg.jpg") center no-repeat;
+    /*min-height: 200px;*/
+}
+.message  .text{
+    max-width: 80%;
+    float: left;
+    overflow: hidden;
+
+}
+.message .item img{
+    border-radius: 0;
+}
+.message .badge{
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    right: inherit;
+}
+.contact .item .ion-bg{
+    color: white;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    top: 8px;
+    left: 11px;
+}
+.contact .item .ion-bg .icon{
+    left: 2px;
+}
+.rj-orange-bgc {
+    background-color: orange;
+}
+.rj-green-bgc {
+    background-color: #63db2a;
+}
+.rj-blue-bgc {
+    background-color: #2d31ca;
+}
+div:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.msg div.other,
+.msg div.myself{
+    margin-bottom: 10px;
+}
+.msg .pic{
+    width: 40px;
+    height: 40px;
+}
+.msg .text{
+    padding:  5px;
+    border-radius: 5px;
+    background: #6BE00B;
+    max-width: 60%;
+    margin: 0 5px;
+    /*word-break:break-all;*/
+    /*word-wrap: break-word;*/
+    text-align:justify;
+}
+.msg .other{
+    margin-left: 5px;
+}
+.msg .myself .text{
+    background: #BCE2F7
+}
+.msg .other img,
+.msg .other .text{
+    float: left;
+}
+.msg .myself{
+    margin-right: 5px;
+}
+.msg .myself img,
+.msg .myself .text{
+    float: right;
+}
+#msg{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+#msg  .inputText{
+    border-bottom: 1px solid #e6e6e6;
+    width: 180px;
+}
+#msg  .buttons{
+    display: flex;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.person{
+    background: #eee;
+}
+.person  .buttons{
+    padding: 10px;
+}
+.person .ion-ios-person{
+    color: #0c60ee;
+}
+/*≈Û”—»¶*/
+.bgPane{
+    max-height: 50%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.bgPane img{
+    width: 100%;
+}
+.bgPane .myself-pic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 2px;
+    position: absolute;
+    bottom: -19px;
+    right: 10px;
+    background: #fff;
+}
+
+.publish-box .item{
+   border: 0;
+}
+.publish-box .item img:first-child{
+    border-radius: 0;
+}
+.publish-box .img-box{
+    display: flex;
+    justify-content: space-between;
+-webkit-flex-wrap:wrap
+}
+.publish-box .img-box img{
+    max-width: 70px;
+    max-height:70px;
+}
+.chooseBox .col{
+    text-align: center;
+
+}
+.chooseBox .col button{
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.chooseBox .col p{
+    color: #606060;
+    padding: 5px 0;
+}
+
+.login{
+    background:#2A8ADF url("../img/login_bg.png") center no-repeat;
+    width: 100%;
+    height: 100%;
+
+    /*position: relative;*/
+}
+.login i{
+    color: #e6e6e6;
+    margin-right: 5px;
+}
+.login .input-box{
+    width: 100%;
+    padding:  0 40px 0 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.login  .list{
+    background:#2A8ADF;
+}

@@ -1,0 +1,73 @@
+
+    <ion-view ng-controller="contactListCtl" class="contact">
+        <div ng-include="'tpl/header.html'"></div>
+        <ion-content>
+
+
+            <!--标签-->
+            <div class="list">
+
+                <a class="item item-icon-left" href="#">
+                    <div class="ion-bg rj-orange-bgc ">
+                        <i class="icon ion-person-add"></i>
+                    </div>
+                    新的朋友
+                </a>
+
+                <a class="item item-icon-left " href="#">
+                    <div class="ion-bg rj-green-bgc ">
+                        <i class="icon ion-person-stalker"></i>
+                    </div>
+                    群聊
+                </a>
+
+                <a class="item item-icon-left" href="#">
+                    <div class="ion-bg rj-blue-bgc ">
+                        <i class="icon ion-ios-pricetag"></i>
+                    </div>
+
+                    标签
+                </a>
+
+                <a class="item item-icon-left" href="#">
+                    <div class="ion-bg rj-blue-bgc ">
+                        <i class="icon ion-person-add"></i>
+                    </div>
+
+                    公众号
+                </a>
+
+            </div>
+
+            <!--明细-->
+
+            <div class="contactList">
+                <div class="list">
+
+                    <div class="item item-divider">
+                        A
+                    </div>
+                    <a class="item item-avatar" href="#/book:1">
+                        <img src="img/mike.png">
+                        <h2>Venkman</h2>
+                    </a>
+                    <a class="item item-avatar" href="#/book:1">
+                        <img src="img/mike.png">
+                        <h2>Venkman</h2>
+                    </a>
+                    <a class="item item-avatar" href="#/book:1">
+                        <img src="img/mike.png">
+                        <h2>Venkman</h2>
+                    </a>
+                    <a class="item item-avatar" href="#/book:1">
+                        <img src="img/mike.png">
+                        <h2>Venkman</h2>
+                    </a>
+
+
+                </div>
+            </div>
+
+        </ion-content>
+        <div ng-include="'tpl/footer.html'"></div>
+    </ion-view>

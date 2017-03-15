@@ -1,0 +1,68 @@
+<ion-side-menus>
+    <ion-side-menu-content  ng-controller="msgCtl">
+            <div ng-include="'tpl/header.html'"></div>
+            <ion-content class="list message">
+
+                <a class="item item-avatar" href="#/manage:2" ng-repeat="item in msgList">
+                    <img src="img/adam.jpg">
+                    <span class="badge badge-assertive" ng-show="item.message">{{item.message}}</span>
+                    <div class="text">
+                        <h2>{{item.name}}</h2>
+                        <p>{{item.intro}}</p>
+                    </div>
+                    <span class="item-note">2015</span>
+                </a>
+            </ion-content>
+            <div ng-include="'tpl/footer.html'"></div>
+    </ion-side-menu-content>
+    <ion-side-menu side="left">
+             <div class="bar bar-header item-input-inset">
+                 <label class="item-input-wrapper">
+                     <i class="icon ion-ios-search placeholder-icon"></i>
+                     <input type="search" placeholder="Search">
+                 </label>
+             </div>
+        <!-- 头像-->
+        <div class="myPic ">
+
+            <a class="item item-thumbnail-left" href="#">
+                <img src="img/max.png">
+                <h2>{{name}}</h2>
+                <p>Nine Inch Nails</p>
+            </a>
+        </div>
+        <!--选择框-->
+        <div class="list">
+            <a class="item item-icon-right" href="#">
+                了解更多
+                        <span class="item-note">
+                            <i class="ion-chevron-right"></i>
+                        </span>
+            </a>
+            <a class="item item-icon-right" href="#">
+                钱包
+                       <span class="item-note">
+                            <i class="ion-chevron-right"></i>
+                        </span>
+            </a>
+            <a class="item item-icon-right" href="#">
+                装扮
+                       <span class="item-note">
+                            <i class="ion-chevron-right"></i>
+                        </span>
+            </a>
+            <a class="item item-icon-right" href="#">
+                我的文件
+                       <span class="item-note">
+                            <i class="ion-chevron-right"></i>
+                        </span>
+            </a>
+            <a class="item item-icon-right" href="#">
+                退出
+            </a>
+
+        </div>
+
+
+        <ion-side-menu>
+</ion-side-menus>
